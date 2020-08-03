@@ -3,12 +3,12 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-
+ 
 }
 /*header*/
 .nav-item .nav-link{
     color: #000000;
+    margin-right: 20px !important;
 }
   
 /*Background Image*/
@@ -44,15 +44,16 @@ body{
    background:rgba(240, 235, 235, 0.541);
     border: none;
     border-radius: 5px;
-    padding-Left:24px;
+    padding-Left:23px;
     padding-right: 23px;
     padding-top: 18px;
+    margin-bottom: 50px;
 }
 .thumbnail img{
     width: 100%;
 }
 .content img{
-    width: 9.81px;
+    width: 10px;
     height: 12.1px;
 }
 .location img{
@@ -75,18 +76,28 @@ h5{
 .thumbnail p{
     text-align: left;
     font-weight: 450;
-    font-size: 16px;
-   
-   
+    font-size: 16px; 
 }
+.thumbnail .content span{
+    text-align: left;
+    font-weight: 450;
+    font-size: 16px; 
+    margin-right: 20px;
+}
+
 .content{
     text-align: justify;
-    height: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e0e0e0;
 }
 .location{
     padding-top: 30px;
     padding-bottom: 10px;
     
+}
+.location span{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .location button{
     background: #55acee;
@@ -140,7 +151,6 @@ h4{
 }
 @media only screen and (max-width: 768px){
     .col-sm-2{
-       
         line-height: 16px;
     }
     .location button{
